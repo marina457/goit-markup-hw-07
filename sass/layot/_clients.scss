@@ -1,0 +1,22 @@
+.clients__icon-list:not(:first-child) {
+    margin-left: 30px;
+}
+
+.clients__link-icon {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid #afb1b8;
+    border-radius: 4px;
+    transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1), border 250ms cubic-bezier(0.4, 0, 0.2, 1);
+
+    width: 170px;
+    height: 92px;
+    fill: #AFB1B8;
+
+    &:hover,
+    &:focus {
+    fill: var(--accent-color);
+    border: 1px solid #2196f3;
+    }
+}
